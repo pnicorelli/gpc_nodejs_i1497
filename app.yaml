@@ -1,0 +1,5 @@
+runtime: nodejs10
+service: test-env
+
+includes:
+  - env_variables.yaml

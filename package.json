@@ -1,0 +1,16 @@
+{
+  "name": "gcptest",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./log-2.js && node ./index.js",
+    "prepare": "npm run gcp-build",
+    "gcp-build": "node ./log-1.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
