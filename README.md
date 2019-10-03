@@ -5,6 +5,7 @@ this repo is intended to reproduce this issue [#1497](https://github.com/GoogleC
 ##### TLTR
 
 The `prepare` task do not read the env variables
+
 log-1.js and log-2.js should have the same output
 
 ###### Cloud Build logs
